@@ -1,10 +1,10 @@
-const withReactSvg = require("next-react-svg");
-const path = require("path");
+const withReactSvg = require('next-react-svg')
+const path = require('path')
 
 module.exports = withReactSvg({
   reactStrictMode: true,
-  include: path.resolve(__dirname, "public/assets"),
+  include: path.resolve(__dirname, 'public/'),
   webpack(config) {
-    return config;
+    return config
   },
-});
+})
