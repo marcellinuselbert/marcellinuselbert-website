@@ -30,7 +30,7 @@ export const Navbar = () => {
 
   return (
     <div
-      className="fixed w-full h-16 bg-white shadow-lg"
+      className="fixed w-full h-16 bg-black shadow-lg"
       style={{ zIndex: 9999 }}
     >
       {/* Mobile navigation overlay */}
@@ -47,7 +47,7 @@ export const Navbar = () => {
           }`}
         >
           <Header
-            className={`flex flex-col px-6 text-green-dark gap-10 ${
+            className={`flex flex-col px-6 text-white gap-10 ${
               isNavHidden && "hidden"
             } ${
               isNavOpen
@@ -72,18 +72,17 @@ export const Navbar = () => {
         </div>
       )}
 
-      <div className="relative desktop:container flex justify-between items-center mobile:mx-4 h-full">
+      <div className="relative flex justify-between items-center px-20 mobile:mx-4 h-full">
         <div className="z-10 cursor-pointer" onClick={() => setNavOpen(false)}>
           <Link href="/" passHref>
-            hah
+            <Header preset="h4" className="text-white">
+              Marcellinus Elbert
+            </Header>
             {/* <EducareLogo width={42} height={42} /> */}
           </Link>
         </div>
 
-        <Header
-          className="hidden desktop:flex gap-14 text-green-dark"
-          preset="h4"
-        >
+        <Header className="hidden desktop:flex gap-14 text-white" preset="h4">
           {NavLinks.map(({ href, label, sub }: NavigationLink) => (
             <div
               key={label}

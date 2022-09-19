@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Marcellinus Elbert</title>
       </Head>
-      <div>
+      <div className="pt-[20%]">
         <LandingHero />
       </div>
     </div>
