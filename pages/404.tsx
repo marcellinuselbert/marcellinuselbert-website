@@ -38,7 +38,7 @@ const NotFound: NextPage = () => {
           preset="h1"
           className="text-center text-transparent bg-clip-text  bg-gradient-to-br from-[#348F50] to-[#56B4D3]"
         >
-          I'm Cooking Something
+          I&apos;m Cooking Something
         </Header>
       </div>
     </div>
