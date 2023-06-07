@@ -15,7 +15,7 @@ const NotFound: NextPage = () => {
       <Head>
         <title>Marcellinus Elbert | 404 Not Found</title>
       </Head>
-      <div className="pt-[10%] h-screen">
+      <div className="pt-[11%] h-screen">
         <div className="flex justify-center">
         <lottie-player
           id="firstLottie"
