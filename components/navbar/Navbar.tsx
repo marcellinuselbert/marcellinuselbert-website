@@ -74,11 +74,12 @@ export const Navbar = () => {
 
       <div className="relative flex justify-between items-center px-20 mobile:mx-4 h-full">
         <div className="z-10 cursor-pointer" onClick={() => setNavOpen(false)}>
-          <Link href="/" passHref>
-            <Header preset="h4" className="text-white">
-              Marcellinus Elbert
-            </Header>
-            {/* <EducareLogo width={42} height={42} /> */}
+          <Link href="/">
+            <a>
+              <Header preset="h4" className="text-white">
+                Marcellinus Elbert
+              </Header>
+            </a>
           </Link>
         </div>
 

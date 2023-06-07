@@ -17,7 +17,7 @@ export const LandingHero = () => {
           <ul>
             <li>
               <Header
-                preset="h1"
+                preset="h2"
                 className="text-transparent bg-clip-text  bg-gradient-to-br from-[#ff9966] to-[#ff5e62]"
               >
                 Code
@@ -25,7 +25,7 @@ export const LandingHero = () => {
             </li>
             <li>
               <Header
-                preset="h1"
+                preset="h2"
                 className="text-transparent bg-clip-text  bg-gradient-to-br from-[#a8ff78] to-[#78ffd6]"
               >
                 Computer Science
@@ -33,7 +33,7 @@ export const LandingHero = () => {
             </li>
             <li>
               <Header
-                preset="h1"
+                preset="h2"
                 className="text-transparent bg-clip-text  bg-gradient-to-br from-[#D31027] to-[#FFFFFF]"
               >
                 Indonesia
@@ -41,7 +41,7 @@ export const LandingHero = () => {
             </li>
             <li>
               <Header
-                preset="h1"
+                preset="h2"
                 className="text-transparent bg-clip-text  bg-gradient-to-br from-[#348F50] to-[#56B4D3]"
               >
                 Software Engineer
@@ -49,7 +49,7 @@ export const LandingHero = () => {
             </li>
             <li>
               <Header
-                preset="h1"
+                preset="h2"
                 className="text-transparent bg-clip-text  bg-gradient-to-br from-[#ff9966] to-[#ff5e62]"
               >
                 Code
